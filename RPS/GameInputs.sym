@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="GameInputs">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-12-10T23:32:8</timestamp>
+    <pin polarity="Input" x="0" y="-480" name="P1Rock" />
+    <pin polarity="Output" x="384" y="-480" name="P1_WIN" />
+    <pin polarity="Output" x="384" y="-416" name="P2_WIN" />
+    <pin polarity="Output" x="384" y="-224" name="MVESUBMIT" />
+    <pin polarity="Input" x="0" y="-448" name="P1Paper" />
+    <pin polarity="Input" x="0" y="-416" name="P1Scissors" />
+    <pin polarity="Input" x="0" y="-368" name="P2Rock" />
+    <pin polarity="Input" x="0" y="-336" name="P2Paper" />
+    <pin polarity="Input" x="0" y="-304" name="P2Scissors" />
+    <pin polarity="Input" x="0" y="-256" name="ButtonIn" />
+    <pin polarity="Input" x="0" y="-224" name="CLKin" />
+    <pin polarity="Output" x="384" y="-288" name="BADMVE" />
+    <pin polarity="Output" x="384" y="-352" name="TIE" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-520" type="symbol" />
+        <rect width="256" x="64" y="-512" height="308" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin P1Rock" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin P1_WIN" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-416" type="pin P2_WIN" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin MVESUBMIT" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <line x2="0" y1="-448" y2="-448" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-448" type="pin P1Paper" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin P1Scissors" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-368" y2="-368" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-368" type="pin P2Rock" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-336" type="pin P2Paper" />
+        <line x2="0" y1="-336" y2="-336" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-304" type="pin P2Scissors" />
+        <line x2="0" y1="-304" y2="-304" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-256" type="pin ButtonIn" />
+        <line x2="0" y1="-256" y2="-256" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin CLKin" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin BADMVE" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin TIE" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+    </graph>
+</symbol>
